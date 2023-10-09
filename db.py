@@ -18,3 +18,15 @@ def pay(price):
     else:
         print("Error not enough balance on the account")
 
+def load_funds(price):
+    """
+    Accesses firebase and deducts the price after its been paid
+    """
+    if(price<0):
+        print("Error price is negative")
+
+    account = db.reference('/price').get()
+    final_price = account+price
+    db.reference('/price').set(final_price)
+    print(f"{price} has been added to your account")
+    print(f"Your new balance is {db.reference('/price').get()}")
