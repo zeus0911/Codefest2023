@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">518700908647</string>
+    <string name="google_api_key" translatable="false">AIzaSyD5GEnk9mmfeXL4ozdvVWa7SPUTaptBkhg</string>
+    <string name="google_app_id" translatable="false">1:518700908647:android:8ea4180652760a3a37d4c2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD5GEnk9mmfeXL4ozdvVWa7SPUTaptBkhg</string>
+    <string name="google_storage_bucket" translatable="false">ku-hackfeast.appspot.com</string>
+    <string name="project_id" translatable="false">ku-hackfeast</string>
+</resources>
