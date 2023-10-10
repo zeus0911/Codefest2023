@@ -22,16 +22,16 @@ The mobile app showcases the wallet system for transaction and live route tracki
 **Entry:**
 Passenger enters the bus,  and his/her face is captured in database alongside geotags. 
 
-**Face Recognition**
+**Face Recognition:**
 Upon arrival, the camera scans the passenger’s face to look for a match and distance is calculated from starting point.
 
-**Fare Calculation**
+**Fare Calculation:**
 The total distance travelled alongside the ride fare is presented at the screen.
 
-**Wallet Deduction**
+**Wallet Deduction:**
 The amount is auto deducted from the users wallet through our app.
 
-**Data Encryption**
+**Data Encryption:**
 User’s personal data will be encrypted securely for enhancing user experience in the near future.
 
 ## Technologies Used
