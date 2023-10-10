@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <script type="text/javascript" src="https://unpkg.com/webcam-easy/dist/webcam-easy.min.js"></script>
+    <link href="{% static 'busapp/css/camera.css' %}" rel="stylesheet">
+</head>
+<body>
+    <h1>Face Detection using OpenCV</h1>
+    <div id = "video-container">
+    </div>
+
+    <script>
+        const videoContainer = document.getElementById('video-container');
+        const video = document.createElement('img');
+        video.src = "{% url 'video_feed' %}";
+        videoContainer.appendChild(video);
+    </script>
+
+</body>
+</html>
