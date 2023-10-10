@@ -43,5 +43,6 @@ User’s personal data will be encrypted securely for enhancing user experience 
 - **Containerization**: Docker
 
 ## Screenshots 
-
+<img src="https://github.com/Nawap1/Codefest2023/assets/98960524/7d9f8b62-7971-4906-a9e2-f2b2b08b44af" alt="wallet" width="420" height="900">
+<img src="https://github.com/Nawap1/Codefest2023/assets/98960524/ff090405-1598-47cd-9ace-9be971ca5b0a" alt="wallet" width="420" height="900">
 
